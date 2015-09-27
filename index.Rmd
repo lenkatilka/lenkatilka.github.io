@@ -25,7 +25,7 @@ knit        : slidify::knit2slides
 2. Learning using visual memory is more efficient - students/users remember more and learn quickly.
 3. Kindles interest in the topic.
 
-**What are the application features**
+**What are the application features?**
 
 To find out, go to next slide!
 
@@ -35,13 +35,13 @@ To find out, go to next slide!
 
 **Game features:**
 
-1. The left panel includes the map - on hover the cities are displayed (and their population)
+1. The left panel includes the map - on hover, the cities (and their population) are displayed
 2. There are 10 questions, each with 3 possible answers
 3. After submission, there is statistics about guesses
 
 **Example of the statistics output about guesses**
 
-```{r, cache=TRUE, echo=FALSE, fig.height=4}
+```{r, cache=TRUE, echo=FALSE, fig.height=3}
 library(ggplot2)
     correct<-c(0,1,0,0,1,1,0)
     dat<-data.frame(x=correct,correct=correct>0.5)
@@ -49,11 +49,12 @@ library(ggplot2)
     plot(n1)
 ```
 
-**The next slide is an example of the game quiz**
+**Try playing the game on the next slide!**
 
 --- &radio
 ## Small Pop Quiz
-To showcase the Geo Game questions:  Where is Cincinnati city ?
+
+Geo Game question:  Where is Cincinnati city located?
 
 1. Arizona
 
@@ -72,7 +73,12 @@ Ohio
 
 **What have you learned thanks to the Geo Game showcase?**
 
-* You have seen the presentation for the Geo Game
-* In the future, all education should be done interatively
-* You now know that Cincinnati lies in Indiana
+* You have learned that Geo Game is an interactive educative application
+* In the future, all education should be interative
+* You now know that Cincinnati lies in Ohio and Ohio boarders with Indiana
+
+**Geo Game Link:**
+
+If you like the game, please share it with your friends
+https://lenkatilka.shinyapps.io/geoGame
 
